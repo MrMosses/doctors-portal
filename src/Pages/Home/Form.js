@@ -6,10 +6,10 @@ const Form = () => {
     return (
         <div style={{
             background: `url(${appointment})`,
-            height: '500px'
+            height: '600px'
         }}>
-            <div className='text-center py-3'>
-                <h5 className='text-primary font-bold'>Contact Us</h5>
+            <div className='text-center py-5 my-7'>
+                <h5 className='text-secondary font-bold mt-7 text-xl'>Contact Us</h5>
                 <h2 className='text-white text-3xl'>Stay connected with us</h2>
             </div>
             <form className='text-center'>
